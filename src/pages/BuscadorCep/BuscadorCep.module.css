@@ -1,0 +1,69 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.main_logo img{
+    width: 100px;
+}
+
+.main_logo h1{
+    font-size: 32px;
+    color: #C1402C;
+}
+
+.form_pesquisa{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: space-between;
+}
+
+.caixa_pesquisa{
+    border-radius: 30px 0px 0px 30px;
+    border: 2px #91382b solid;
+    padding: 10px 10px 10px 20px;
+    
+}
+
+.botao_pesquisa{
+    border-radius: 0px 30px 30px 0px;
+    border: 2px  #91382b solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #C1402C;
+    color: white;
+    cursor: pointer;
+}
+
+.botao_pesquisa:hover{
+    border-radius: 0px 30px 30px 0px;
+    border: 2px  #91382b solid;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    color: #C1402C;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.resultado_pesquisa{
+    display: flex;
+    justify-content: center;
+}
+
+.card_cep{
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.38);
+}

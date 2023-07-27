@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #C1402C;
+    padding: 1em;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    width: 28px;
+}
+
