@@ -30,30 +30,30 @@
 
 .caixa_pesquisa{
     border-radius: 30px 0px 0px 30px;
-    border: 2px #91382b solid;
+    border: 1px #000000 solid;
     padding: 10px 10px 10px 20px;
+    width: 310px;
     
 }
 
 .botao_pesquisa{
     border-radius: 0px 30px 30px 0px;
-    border: 2px  #91382b solid;
+    border: 2px  #12843f solid;
     padding: 10px 10px 10px 10px;
-    background-color: #C1402C;
+    background-color: #12843f;
     color: white;
     cursor: pointer;
 }
 
 .botao_pesquisa:hover{
     border-radius: 0px 30px 30px 0px;
-    border: 2px  #91382b solid;
+    border: 2px  #12843f solid;
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
-    color: #C1402C;
+    color: #12843f;
     cursor: pointer;
     transition: 0.5s;
 }
-
 .resultado_pesquisa{
     display: flex;
     justify-content: center;
@@ -66,4 +66,8 @@
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.38);
+}
+
+.mensagem_erro{
+    color: #C1402C;
 }
